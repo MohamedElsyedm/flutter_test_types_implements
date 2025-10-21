@@ -1,18 +1,25 @@
-Flutter Testing
+                          Flutter Testing
 Testing types:
+
 Unit test => test single function or class or method
+
 Widget test => test a single widget 
+
 Integration test => tests a complete app or a large part of an app
 
 Why do we need testing ?
+
 Ensure code quality 
 Prevent future bugs
 Facilitates maintenance and scalability
 
 How do these tests differ ?
-Unit test   scope (small, specific)   speed(fast)  purpose(ensure functions work correctly)
-Widget test scope(UI components)  speed (moderate)   purpose(verify widget behaviour)
-Integration tests  scope(entire app)   speed(slow)  purpose(validate user workflows)
+
+Unit test =>       scope (small, specific) =>     speed(fast) =>     purpose(ensure functions work correctly)
+
+Widget test =>       scope(UI components) =>        speed (moderate)  =>        purpose(verify widget behaviour)
+
+Integration tests  =>       scope(entire app)  =>        speed(slow)  =>       purpose(validate user workflows)
 
 Unit test:
 -	When u test specific function, method, or class u create file inside test folder called with (functionName_test.dart).
