@@ -123,8 +123,8 @@ o	call scrollUntilVisible():
 
 Integration test:
 
-  test be on virtual or real device 
-  tester can use real data instead mockito 
-  test all app
-  we can create test_utils to implement reusable functions 
+  - test be on virtual or real device 
+  - tester can use real data instead mockito 
+  - test all app
+  - u can create test_utils to implement reusable functions 
 
